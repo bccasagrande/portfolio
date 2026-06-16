@@ -4,178 +4,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Bianca Casagrande">
-    <meta name="description" content="Portfólio de Bianca Casagrande, profissional de Customer Experience e Desenvolvedora Fullstack.">
-    <meta name="robots" content="index, follow">
-    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
-    <title>Portfólio - Bianca Casagrande</title>
+    <title>Bianca Casagrande | Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Cabeçalho da Página (header) -->
-    <header class="menu-container">
-        <div>
-            <a href="index.html" class="titulo">Bianca Casagrande</a>
-            <nav>
-                <ul>
-                    <li><a href="#hero">Início</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
+    <header>
+        <div class="logo">
+            Bianca Casagrande
         </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
     </header>
 
-    <!-- Seção Principal da Página (main) -->
-    <main>
+    <section id="inicio" class="hero">
 
-        <!-- Seção Hero -->
-        <section id="hero">
-            <article>
-                <h1>Olá, eu sou a Bianca! 👋</h1>
-                <h2>Profissional de Customer Experience & Desenvolvedora Fullstack</h2>
-                <p>Unindo CX, dados e tecnologia para criar experiências inteligentes, empáticas e orientadas por resultados.</p>
-                <div>
-                    <a href="#contact">Entre em Contato</a>
-                    <a href="#about">Saiba Mais</a>
-                </div>
-            </article>
-            <figure>
-                <img src="./assets/img/foto.jpg" alt="Foto de Bianca Casagrande">
-            </figure>
-        </section>
+        <div class="hero-text">
 
-        <!-- Seção About -->
-        <section id="about">
-            <figure>
-                <img src="./assets/img/foto.jpg" alt="Foto de perfil de Bianca Casagrande">
-            </figure>
-            <article>
-                <h2>Sobre Mim</h2>
-                <p>
-                    Profissional apaixonada por Customer Experience, com formação em Produção Publicitária e MBA Executivo em Customer & Employee Experience. Tenho sólida experiência em atendimento multicanal, otimização de chatbots, gestão de reputação, fidelização e redução de churn.
-                </p>
-                <p>
-                    Trabalho com métricas como NPS, CSAT, CES e Churn Rate para gerar insights e ações estratégicas. Já desenvolvi jornadas de onboarding, programas de ongoing, ações de reativação e estratégias de expansão em modelos B2C e B2B2C, com uso de Design Thinking, mapeamento de jornada e desenvolvimento de personas.
-                </p>
-                <p>
-                    Atualmente em formação como Desenvolvedora Fullstack, com foco em unir CX, dados e tecnologia. Estudo HTML, CSS, JavaScript, React.js, Java, Spring Boot, CRUD, Spring Security, Node.js e PostgreSQL — além de Clean Code, testes automatizados, CI/CD e metodologias ágeis.
-                </p>
-                <p>
-                    Minha missão é ser a ponte entre pessoas, tecnologia e experiências de valor — criando soluções inteligentes, empáticas e orientadas por dados.
-                </p>
-                <div>
-                    <div>
-                        <a href="https://github.com/bccasagrande" target="_blank">GitHub</a>
-                        <a href="./assets/img/curriculo.pdf" target="_blank">Currículo</a>
-                    </div>
-                    <div>
-                        <div>
-                            <h3 id="seguidores">--</h3>
-                            <p>Seguidores</p>
-                        </div>
-                        <div>
-                            <h3 id="repositorios">--</h3>
-                            <p>Repositórios Públicos</p>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
+            <span>Olá, eu sou</span>
 
-        <!-- Seção Projects -->
-        <section id="projects">
-            <h2>Meus Projetos</h2>
-            <p>Confira alguns dos projetos que desenvolvi durante minha formação Fullstack:</p>
-            <div id="carousel">
+            <h1>Bianca Casagrande</h1>
 
-                <div class="card">
-                    <h3>API REST - Sistema de Farmácia</h3>
-                    <p>Java | Spring Boot | Spring Data JPA | MySQL | Maven | Git</p>
-                    <p>API REST completa para gerenciamento de farmácia, com CRUD de Produtos e Categorias, relacionamento entre entidades e arquitetura em camadas. Desenvolvido na Generation Brasil simulando demanda real.</p>
-                    <a href="https://github.com/bccasagrande/projeto_final_bloco_02" target="_blank">GitHub</a>
-                    <a href="https://github.com/bccasagrande/projeto_final_bloco_02" target="_blank">GitHub Deploy</a>
-                </div>
+            <h2>Desenvolvedora Full Stack Java</h2>
 
-                <div class="card">
-                    <h3>Blog Pessoal</h3>
-                    <p>Java | Spring Boot | Spring Data JPA | MySQL | Docker | DevTools</p>
-                    <p>API REST de um blog pessoal com CRUD completo, utilizando Docker para conteinerização da aplicação. Projeto com boas práticas de arquitetura Back-End em camadas.</p>
-                    <a href="https://github.com/bccasagrande/blogpessoal" target="_blank">GitHub</a>
-                    <a href="https://github.com/bccasagrande/blogpessoal" target="_blank">GitHub Deploy</a>
-                </div>
+            <p>
+                Apaixonada por tecnologia, experiência do cliente e criação de soluções digitais.
+            </p>
 
-                <div class="card">
-                    <h3>Loja de Games</h3>
-                    <p>Java | Spring Boot | Spring Data JPA | MySQL | DevTools</p>
-                    <p>API REST para gerenciamento de uma loja de games, com CRUD completo de produtos e categorias, seguindo boas práticas de desenvolvimento Back-End com Spring Boot.</p>
-                    <a href="https://github.com/bccasagrande/lojagames" target="_blank">GitHub</a>
-                    <a href="https://github.com/bccasagrande/lojagames" target="_blank">GitHub Deploy</a>
-                </div>
+            <a href="#contato" class="btn">
+                Entre em contato
+            </a>
 
-                <div class="card">
-                    <h3>Projeto Integrador - Delivery de Alimentos</h3>
-                    <p>Java | Spring Boot | Spring Data JPA | MySQL | JavaSE-21 | Git</p>
-                    <p>API REST para sistema de delivery de alimentos, desenvolvido em equipe (Grupo 06). Envolveu colaboração via pull requests, versionamento com múltiplas branches e modelagem de entidades.</p>
-                    <a href="https://github.com/Projeto-Integrador-Grupo-06/delivery" target="_blank">GitHub</a>
-                    <a href="https://github.com/Projeto-Integrador-Grupo-06/delivery" target="_blank">GitHub Deploy</a>
-                </div>
+        </div>
 
-                <div class="card">
-                    <h3>Projeto Integrador - Sistema RH</h3>
-                    <p>Java | Spring Boot | Spring Data JPA | MySQL | JavaSE-21</p>
-                    <p>Sistema de RH desenvolvido em equipe como projeto integrador, com modelagem de entidades, relacionamentos e API REST. Utiliza Java 21 e segue boas práticas de arquitetura.</p>
-                    <a href="https://github.com/Projeto-Integrador-Grupo-06" target="_blank">GitHub</a>
-                    <a href="https://github.com/Projeto-Integrador-Grupo-06" target="_blank">GitHub Deploy</a>
-                </div>
+        <div class="hero-image">
+            <img src="foto.jpg" alt="Foto Bianca Casagrande">
+        </div>
 
-            </div>
-        </section>
+    </section>
 
-        <!-- Seção Contact -->
-        <section id="contact">
-            <article id="redes_sociais">
-                <h2>Entre em Contato</h2>
-                <p>Sinta-se à vontade para entrar em contato comigo!</p>
-                <div>
-                    <a href="https://www.linkedin.com/in/biancacarvalhocasagrande/" target="_blank">
-                        <img src="./assets/img/linkedin.svg" alt="LinkedIn">
-                    </a>
-                    <a href="https://github.com/bccasagrande" target="_blank">
-                        <img src="./assets/img/github.svg" alt="GitHub">
-                    </a>
-                    <a href="https://www.instagram.com/biancaccasagrande/" target="_blank">
-                        <img src="./assets/img/instagram.svg" alt="Instagram">
-                    </a>
-                </div>
-            </article>
+   <section id="sobre">
 
-            <form action="success.html" method="get">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite o seu nome completo" required>
+    <h2>Sobre Mim</h2>
 
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" required>
+    <div class="card">
 
-                <label for="assunto">Assunto</label>
-                <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto da mensagem" required>
+        <p>
+        Sou uma profissional apaixonada por Customer Experience, com experiência em estratégias de relacionamento, fidelização, redução de churn e construção de jornadas focadas na geração de valor para clientes. Ao longo da minha trajetória, atuei em modelos B2C e B2B2C, utilizando métricas como NPS, CSAT e CES para transformar dados em ações estratégicas e aprimorar a experiência do cliente.
+        </p>
 
-                <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem aqui..." required></textarea>
+        <p>
+        Atualmente, estou em formação como Desenvolvedora Full Stack, aprofundando meus conhecimentos em HTML, CSS, JavaScript, React, Java, Spring Boot, Node.js e bancos de dados. Meu objetivo é unir experiência do cliente, tecnologia e análise de dados para criar soluções inteligentes, inovadoras e centradas nas pessoas.
+        </p>
 
-                <button type="submit">Enviar Mensagem</button>
+         <p>
+        Acredito que as melhores experiências surgem quando pessoas, dados e tecnologia trabalham juntos para gerar impacto real e resultados sustentáveis, criando experiências mais inteligentes, humanas e orientadas por dados.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section id="projetos">
+
+    <h2>Projetos</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+
+            <h3>Loja de Games</h3>
+
+            <span>
+                Java | Spring Boot | Spring Data JPA | MySQL | DevTools
+            </span>
+
+            <p>
+                API REST para gerenciamento de uma loja de games, com CRUD completo de produtos e categorias, seguindo boas práticas de desenvolvimento Back-End com Spring Boot.
+            </p>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <h3>Projeto Integrador - Delivery de Alimentos</h3>
+
+            <span>
+                Java | Spring Boot | Spring Data JPA | MySQL | JavaSE-21 | Git
+            </span>
+
+            <p>
+                API REST para um sistema de delivery de alimentos, desenvolvido em equipe (Grupo 06) como Projeto Integrador da Generation Brasil. O projeto envolveu colaboração via Pull Requests, múltiplas branches e modelagem das entidades.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+</div>
+
+    </div>
+
+    </section>
+
+    <section id="contato">
+
+        <h2>Contato</h2>
+
+        <div class="card">
+
+            <form action="success.html">
+
+                <input type="text" placeholder="Nome" required>
+
+                <input type="email" placeholder="E-mail" required>
+
+                <textarea rows="5" placeholder="Mensagem"></textarea>
+
+                <button type="submit">
+                    Enviar mensagem
+                </button>
+
             </form>
-        </section>
 
-    </main>
+        </div>
 
-    <!-- Rodapé da Página (footer) -->
+    </section>
+
     <footer>
-        <p>Desenvolvido por Bianca Casagrande - 2026</p>
-    </footer>
+
+    <p>
+        © 2026 Bianca Casagrande. Todos os direitos reservados.
+    </p>
+
+    <div class="social-links">
+
+        <a
+            href="https://www.instagram.com/bianccasagrande/"
+            target="_blank">
+
+            Instagram
+
+        </a>
+
+        <a
+            href="https://www.linkedin.com/in/biancacarvalhocasagrande/"
+            target="_blank">
+
+            LinkedIn
+
+        </a>
+
+    </div>
+
+</footer>
+
 
 </body>
 
 </html>
+
