@@ -230,3 +230,55 @@ footer{
 .card p:last-child{
     margin-bottom: 0;
 }
+
+/* TEMA CLARO */
+
+.light-mode{
+    background: linear-gradient(135deg,#eef3ff,#dbe7ff,#f4f7ff);
+    color: #1f2937;
+}
+
+.light-mode header{
+    background: rgba(255,255,255,.7);
+}
+
+.light-mode nav a{
+    color: #1f2937;
+}
+
+.light-mode .hero-text h2,
+.light-mode .project-card span{
+    color: #5b5bd6;
+}
+
+.light-mode .hero-text p,
+.light-mode .card p,
+.light-mode .project-card p,
+.light-mode footer p{
+    color: #4b5563;
+}
+
+.light-mode .card,
+.light-mode .project-card,
+.light-mode .success-card{
+    background: rgba(255,255,255,.8);
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.light-mode input,
+.light-mode textarea{
+    background: white;
+    color: #1f2937;
+    border: 1px solid #d1d5db;
+}
+
+.light-mode input::placeholder,
+.light-mode textarea::placeholder{
+    color: #6b7280;
+}
+
+.light-mode .social-links a,
+.light-mode .project-card h3,
+.light-mode .hero-text span{
+    color: #2563eb;
+}
